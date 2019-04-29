@@ -7,7 +7,7 @@ Current interpreter implementation using spring boot and Jython.
 
 
 ## Details:
-_The interpreted is take in consederation all variable state._
+**_The interpreter is for python code executing and also take in consederation all variable state._**
 ### •	Tests :
 Run as java application or as Spring boot app.
 The ``` OracleTestProjectApplication ``` is the main class when we can start this project.
