@@ -51,28 +51,30 @@ The follow input produce nothing because it is just a query assignment:
 
 
 The result is:
-
+```
 {
     "result": ""
 }
-
+```
 And when I send this :
-
+```
 {
 	"code":"%python print a+2"
 }
+```
 
 The result is taking a variable value plus 2:
-
+```
 {
     "result": "4"
 }
+```
 
 
 
 
 ### •	Unit Tests : 
-To run unit test just run OracleTestProjectApplicationTests or SpringBootRestControllerTest for the controller testing 
+To run unit test just run _OracleTestProjectApplicationTests_ or _SpringBootRestControllerTest_ for the controller testing 
  
 
 
