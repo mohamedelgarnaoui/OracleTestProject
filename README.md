@@ -20,35 +20,35 @@ Run as java application or as Spring boot app.
 The OracleTestProjectApplication is the main class when we can start this project.
 The Endpoint execute function take as parameter a json like this:
 
-[[[ {
+``` {
 	"code":"%python code "
-} ]]]
-
+} 
+```
 For Example :
-
+```
 {
 	"code":"%python print 2"
 }
-
+```
 The expected result is like this:
-
+```
 {
     "result": "Result"
 }
-
+```
 For example:
-
+```
 {
     "result": "2"
 }
-
+```
 The Python Interpreter take in consideration all the variable state for example:
 The follow input produce nothing because it is just a query assignment:
-
+```
 {
 	"code":"%python a = 2"
 }
-
+```
 
 The result is:
 ```
@@ -74,7 +74,7 @@ The result is taking a variable value plus 2:
 
 
 ### •	Unit Tests : 
-To run unit test just run _OracleTestProjectApplicationTests_ or _SpringBootRestControllerTest_ for the controller testing 
+To run unit test just run ``` _OracleTestProjectApplicationTests_ ```or ``` _SpringBootRestControllerTest_ ``` for the controller testing 
  
 
 
