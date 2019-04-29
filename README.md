@@ -1,17 +1,7 @@
 # OracleTestProject
 ## Overview
 Python interpreter using Jython. And Spring boot 1.5.20.Release
-'''
-.   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- 
- :: Spring Boot ::       (v1.5.20.RELEASE)
- 
-'''
+
 ## Architecture
 Current interpreter implementation using spring boot and Jython.
 
@@ -22,7 +12,7 @@ Run as java application or as Spring boot app.
 The OracleTestProjectApplication is the main class when we can start this project.
 The Endpoint execute function take as parameter a json like this:
 ```
- {
+{
 	"code":"%python code "
 } 
 ```
@@ -35,7 +25,7 @@ For Example :
 The expected result is like this:
 ```
 {
-    "result": "Result"
+	"result": "Result"
 }
 ```
 For example:
@@ -73,9 +63,7 @@ The result is taking a variable value plus 2:
 ```
 
 
-
-
-### •	Unit Tests : 
+### •	Unit Tests based on JUNIT and Spring Boot test: 
 To run unit test just run ``` OracleTestProjectApplicationTests ```or ``` SpringBootRestControllerTest ``` for the controller testing 
  
 
