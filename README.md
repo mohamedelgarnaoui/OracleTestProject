@@ -17,19 +17,18 @@ The Endpoint execute function take as parameter a json like this:
 	"code":"%python code "
 } 
 ```
-For Example :
-```
-{
-	"code":"%python print 2"
-}
-```
 The expected result is like this:
 ```
 {
 	"result": "Result"
 }
 ```
-For example:
+For Example :
+```
+{
+	"code":"%python print 2"
+}
+```
 ```
 {
 	"result": "2"
@@ -55,7 +54,6 @@ And when I send this :
 	"code":"%python print a+2"
 }
 ```
-
 The result is taking a variable value plus 2:
 ```
 {
