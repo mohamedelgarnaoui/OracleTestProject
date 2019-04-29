@@ -10,8 +10,9 @@ Current interpreter implementation using spring boot and Jython.
 _The interpreted is take in consederation all variable state._
 ### •	Tests :
 Run as java application or as Spring boot app.
-The OracleTestProjectApplication is the main class when we can start this project.
-The Endpoint execute function take as parameter a json like this:
+The ``` OracleTestProjectApplication ``` is the main class when we can start this project.
+
+The execute Rest Contriller Endpoint function take as parameter a json like this:
 ```
 {
 	"code":"%python code "
@@ -63,7 +64,7 @@ The result is taking a variable value plus 2:
 
 
 ### •	Unit Tests based on JUNIT and Spring Boot test: 
-To run unit test just run ``` OracleTestProjectApplicationTests ```or ``` SpringBootRestControllerTest ``` for the controller testing in ''' OracleTestProject/src/test/java/com/oracle/ ''' folder.
+To run unit test just run ``` OracleTestProjectApplicationTests ```or ``` SpringBootRestControllerTest ``` for the controller testing in ``` OracleTestProject/src/test/java/com/oracle/ ``` folder.
  
 
 
