@@ -12,7 +12,7 @@ _The interpreted is take in consederation all variable state._
 Run as java application or as Spring boot app.
 The ``` OracleTestProjectApplication ``` is the main class when we can start this project.
 
-The execute Rest Contriller Endpoint function take as parameter a json like this:
+The execute Rest Controller Endpoint function take as parameter a json like this:
 ```
 {
 	"code":"%python code "
