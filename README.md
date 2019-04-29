@@ -1,8 +1,8 @@
 # OracleTestProject
 ## Overview
 Python interpreter using Jython. And Spring boot 1.5.20.Release
-'
-  .   ____          _            __ _ _
+'''
+.   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
@@ -11,7 +11,7 @@ Python interpreter using Jython. And Spring boot 1.5.20.Release
  
  :: Spring Boot ::       (v1.5.20.RELEASE)
  
-'
+'''
 ## Architecture
 Current interpreter implementation using spring boot and Jython.
 
