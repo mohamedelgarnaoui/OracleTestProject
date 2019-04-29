@@ -63,7 +63,7 @@ The result is taking a variable value plus 2:
 
 
 ### •	Unit Tests based on JUNIT and Spring Boot test: 
-To run unit test just run ``` OracleTestProjectApplicationTests ```or ``` SpringBootRestControllerTest ``` for the controller testing 
+To run unit test just run ``` OracleTestProjectApplicationTests ```or ``` SpringBootRestControllerTest ``` for the controller testing in ''' OracleTestProject/src/test/java/com/oracle/ ''' folder.
  
 
 
