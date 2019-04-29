@@ -7,6 +7,7 @@ Current interpreter implementation using spring boot and Jython.
 
 
 ## Details:
+_The interpreted is take in consederation all variable state._
 ### •	Tests :
 Run as java application or as Spring boot app.
 The OracleTestProjectApplication is the main class when we can start this project.
@@ -31,7 +32,7 @@ The expected result is like this:
 For example:
 ```
 {
-    "result": "2"
+	"result": "2"
 }
 ```
 The Python Interpreter take in consideration all the variable state for example:
@@ -45,7 +46,7 @@ The follow input produce nothing because it is just a query assignment:
 The result is:
 ```
 {
-    "result": ""
+	"result": ""
 }
 ```
 And when I send this :
@@ -58,7 +59,7 @@ And when I send this :
 The result is taking a variable value plus 2:
 ```
 {
-    "result": "4"
+	"result": "4"
 }
 ```
 
