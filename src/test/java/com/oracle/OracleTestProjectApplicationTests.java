@@ -27,5 +27,11 @@ public class OracleTestProjectApplicationTests {
 		PyObject testName = service.extractPythonCode("%python print 1+1");
 		Assert.assertEquals("2", testName.toString());
 	}
+	
+	@Test
+	public void whenPythonCodeIsProvided_thenRetrievedResultIsIncorrect() throws PyException, ScriptException {
+		PyObject testName = service.extractPythonCode("%python print 1+1");
+		Assert.assertEquals("3", testName.toString());
+	}
 
 }

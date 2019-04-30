@@ -25,7 +25,6 @@ public class SpringBootRestControllerTest extends AbstractTest{
 		EndPointModel ep = new EndPointModel();
 		ep.setCode("%python print 2");;
 		String inputJson = super.mapToJson(ep);
-		System.out.println(inputJson);
 		MvcResult mvcResult = mvc.perform(MockMvcRequestBuilders.post(uri)
 				.contentType(MediaType.APPLICATION_JSON_VALUE)
 				.content(inputJson)).andReturn();
