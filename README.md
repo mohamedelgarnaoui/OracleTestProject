@@ -1,6 +1,6 @@
 # OracleTestProject
 ## Overview
-Python interpreter using Jython. And Spring boot 1.5.20.Release
+Python interpreter Spring boot 1.5.20.Release
 
 ## Architecture
 Current interpreter implementation using spring boot and Jython.
