@@ -3,7 +3,7 @@
 Python interpreter Spring boot 1.5.20.Release
 
 ## Architecture
-Current interpreter implementation using spring boot and Jython.
+Python interpreter implementation using spring boot.
 
 
 ## Details:
@@ -55,7 +55,7 @@ And when I send this :
 	"code":"%python print a+2"
 }
 ```
-The result is taking a variable value plus 2:
+The result is taking "a" variable value plus 2:
 ```
 {
 	"result": "4"
