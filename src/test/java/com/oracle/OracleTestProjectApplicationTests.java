@@ -24,21 +24,21 @@ public class OracleTestProjectApplicationTests {
 
 	@Test
 	public void whenPythonCodeIsProvided_thenRetrievedResultIsCorrect() throws PyException, ScriptException {
-		PyObject testName = service.extractPythonCode("%python print 1+1");
-		Assert.assertEquals("2", testName.toString());
+		PyObject testPy = service.extractPythonCode("%python print 1+1");
+		Assert.assertEquals("2", testPy.toString());
 	}
 	
 	@Test
 	public void whenPythonCodeIsProvided_thenRetrievedResultIsIncorrect() throws PyException, ScriptException {
 		service.extractPythonCode("%python a = 1+1");
-		PyObject test2 = service.extractPythonCode("%python print a+2");
-		Assert.assertEquals("4", test2.toString());
+		PyObject testPy = service.extractPythonCode("%python print a+2");
+		Assert.assertEquals("4", testPy.toString());
 	}
 	
 	@Test
 	public void whenPythonCodeIsProvided_thenRetrievedResultIsCorrectAss() throws PyException, ScriptException {
-		PyObject testName = service.extractPythonCode("%python print 2+2");
-		Assert.assertEquals("4", testName.toString());
+		PyObject testPy = service.extractPythonCode("%python print 2+2");
+		Assert.assertEquals("4", testPy.toString());
 	}
 
 }
